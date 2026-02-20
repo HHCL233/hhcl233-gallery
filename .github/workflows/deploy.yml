@@ -3,7 +3,7 @@ name: 部署Vue项目到GitHub Pages
 # 触发条件：当推送到main分支时
 on:
   push:
-    branches: [main]
+    branches: [master]
   # 允许手动触发工作流
   workflow_dispatch:
 
