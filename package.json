@@ -15,7 +15,10 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "chatgpt-type-effect": "^1.0.1-alpha.0.6",
     "pinia": "^3.0.4",
+    "sober": "^1.1.9",
+    "typed.js": "^3.0.0",
     "vue": "^3.5.28",
     "vue-router": "^5.0.2"
   },
