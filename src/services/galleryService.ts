@@ -4,7 +4,7 @@ export async function initGalleryData() {
   try {
     const galleryStore = useGalleryStore()
 
-    const galleryData = (await fetch('/config/gallery.json')).json()
+    const galleryData = (await fetch('/hhcl233-gallery/config/gallery.json')).json()
     galleryStore.galleryData = (await galleryData).reverse()
 
   } catch (err) {

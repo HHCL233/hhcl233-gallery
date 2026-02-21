@@ -107,7 +107,6 @@ onMounted(() => {
   width: 100%;
   display: flex;
   height: calc(100vh - 60px);
-  /* 使用视口高度替代百分比 */
   overflow: hidden;
   position: relative;
 }
